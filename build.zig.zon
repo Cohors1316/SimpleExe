@@ -1,0 +1,14 @@
+.{
+    .name = "SimpleExe",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0-dev.75+5c9eb4081",
+    // zig build --fetch to fetch dependencies
+    // saved to global cache, named by hash.
+    .dependencies = .{ .simple_lib = .{
+        .url = "https://github.com/Cohors1316/SimpleLib/archive/4ecfc91cab0e30273a561745f582205f01754781.tar.gz",
+        .hash = "12207a13eb76ce06fcf032fe928148b88b47c74cbda72f06c29329968d76019c990c",
+    } },
+    .paths = .{
+        "",
+    },
+}

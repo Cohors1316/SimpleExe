@@ -5,8 +5,8 @@
     // zig build --fetch to fetch dependencies
     // saved to global cache, named by hash.
     .dependencies = .{ .simple_lib = .{
-        .url = "https://github.com/Cohors1316/SimpleLib/archive/4ecfc91cab0e30273a561745f582205f01754781.tar.gz",
-        .hash = "12207a13eb76ce06fcf032fe928148b88b47c74cbda72f06c29329968d76019c990c",
+        .url = "https://github.com/Cohors1316/SimpleLib/archive/8107c2eb184cc10723596945462d93c3afbae3a3.tar.gz",
+        .hash = "122032155e6cbf75dfbe5850bd811f04f04b8a64aadf76bf944b96ba8d6f45abd649",
     } },
     .paths = .{
         "",

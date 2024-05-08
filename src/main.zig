@@ -1,8 +1,13 @@
 const std = @import("std");
-const SimpleLib = @import("SimpleLib");
+const SimpleFile = @import("SimpleFile");
 
 pub fn main() !void {
-    const simple_lib = SimpleLib{};
-    const message = simple_lib.getStuff();
-    std.debug.print("Message: {}\n", .{message});
+    var simple_obj = SimpleFile{};
+    const message = simple_obj.getStuff();
+    std.debug.print("Message: {s}\n", .{message});
+}
+
+test "Testing test" {
+    var sl = SimpleFile{};
+    std.testing.expectEqualStrings("Hello, World!", sl.getstuff());
 }
